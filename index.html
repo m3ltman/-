@@ -26,8 +26,6 @@
             <section class="description">
                 <div class="two-columns">
                     <aside class="two-columns__brief">Главные проблемы в обучении</aside>
-                    <!-- Отлично: здорово, что используете семантичные теги -->
-                    <!-- Надо исправить: здесь не хватает блока two-columns, сразу идут его элементы -->
                     <div class="two-columns__main-text">
                         <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как
                         правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать
@@ -41,8 +39,6 @@
                         подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на 
                         примере обучения в Практикуме.
                         </p>
-                        <!-- Можно лучше: проверьте, точно ли тут нужны модификаторы? У абзацев одинаковые стили. И когда указываете БЭМ-сущность с модификатором, то указывайте обязательно и без, на классе с модификатором находятся только отличающиеся стили - проверьте везде по коду -->
-                        <!-- От ученика: исправил -->
                     </div>
                 </div>
             </section>
@@ -104,24 +100,17 @@
 
             <section class="feinman">
                 <h2 class="feinman__title">Метод Фейнмана</h2>
-                <!-- От ученика: исправлено -->
-                <!-- Надо исправить: выравнивание не по макету -->
                 <h3 class="feinman__subtitle">Выучить и не забыть.</h3>
                 <a href="#" class="link feinman__link">Подробнее→</a>
-                <!-- Надо исправить: цвет ссылки не по макету -->
                 <img class="feinman__image" src="./images/feinman.png" alt='Фейнман'>
             </section>
 
             <section class="digits">
                 <h2 class="section-title">Цифры и факты</h2>
-                <!-- От ученика: Исправлено, как всё лаконичнее стало смотреться!!! -->
-                <!-- Надо исправить: все заголовки и подзаголовки выделите в отдельные блоки, как в брифе, так как у них одинаковое оформление, чтобы не дублировать стили. Цвета можно менять с помощью модификаторов -->
                 <h3 class="section-subtitle">Про учёбу и мозг</h3>
                 <div class="table">
                     <div class="table__cell">
-                        <!-- Надо исправить: нет блока table -->
                         <h4 class="table__heading">86 миллиардов</h4>
-                        <!-- Надо исправить: это одинаковые элементы, лучше не задавать им разные классы (с номерами)-->
                         <p class="table__text">Число нейронов в мозге человека</p>
                     </div>
                     <div class="table__cell">
@@ -177,8 +166,6 @@
                 <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
                 <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
                 <div class="table table_theme_dark">
-                    <!-- Надо исправить: аналогично таблице выше -->
-                    <!-- От ученика: Исправлено -->
                     <div class="table__cell table__cell_theme_dark">
                         <h4 class="table__heading table__heading_theme_dark">1</h4>
                         <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
@@ -242,13 +229,6 @@
                     <img class="logo logo_place_footer" src="./images/logo_white.svg" alt="Лого">
                     <p class="footer__author">&copy; 2019. Дмитрий Кошелев</p>
                 </div>
-                <!--   Нужно исправить: Еще раз пересмотрите материал по БЭМ наименованию.
-                   Например, если в задании сказано "Блок footer, элемент column-heading", то запись должан выглядеть так:
-                   footer__column-heading
-                   В случае если "Блок footer, элемент column, модификатор content со значением copyright"
-                   footer__column footer__column_content_copyright
-
-                   -->
                 <div class="footer__column footer__column_content_info">
                     <h2 class="footer__column-heading">О Практикуме</h2>
                     <div class="footer__column-links">
@@ -272,12 +252,3 @@
     </div>
 </body>
 </html>
-
-<!-- От ученика: Именования исправлены -->
-
-<!-- В целом по работе:
-
-Прекрасная работа, у меня нет существенных замечаний за испключением ошибки в БЭМ методологии в футере.
-Поправьте и еще раз пересмотрите теорию по БЭМ
-
--->
